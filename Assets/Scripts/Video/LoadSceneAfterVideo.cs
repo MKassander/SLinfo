@@ -6,10 +6,11 @@ namespace Video
 {
     public class LoadSceneAfterVideo : MonoBehaviour
     {
-        private VideoClip clip => GetComponent<VideoPlayer>().clip;
+        public VideoClip clip => GetComponent<VideoPlayer>().clip;
         private void Start()
         {
-            Invoke("SwitchScene", (float) clip.length);
+            Invoke("SwitchScene", (float) clip.length
+            + FindObjectOfType<Fade>().fadeDuration);
         }
 
         void SwitchScene()

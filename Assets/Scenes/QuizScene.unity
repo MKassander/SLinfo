@@ -693,7 +693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Tryck p\xE5 tavlan"
+  m_Text: "Tryck p\xE5 informationstavlan"
 --- !u!222 &847276387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -889,10 +889,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minimumScale: 1
-  _initialScale: 1.2
-  _maximumScale: 2
-  _scaleIncrement: 0.05
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 3
+  scaleIncrement: 0.05
 --- !u!1 &1219012197
 GameObject:
   m_ObjectHideFlags: 0

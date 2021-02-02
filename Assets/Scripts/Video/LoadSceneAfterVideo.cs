@@ -10,7 +10,7 @@ namespace Video
         private void Start()
         {
             Invoke("SwitchScene", (float) clip.length
-            + FindObjectOfType<Fade>().fadeDuration);
+            + FindObjectOfType<Fade>().fadeDuration * 2);
         }
 
         void SwitchScene()

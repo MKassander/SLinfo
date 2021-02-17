@@ -5,16 +5,41 @@ using UnityEngine;
 
 public class InfoText : MonoBehaviour
 {
-    private float timer;
-    public float DownSeconds;
-    public float UpAfterSeconds;
-    public float DestroyAfterSeconds;
+    public float smoothTime;
+
+    public RectTransform turnPoint;
+    private Vector3 startPos;
+    
+    Vector3 velocity = Vector3.zero;
+
+    public bool startMove;
+    public bool turn;
+
+    private void Start()
+    {
+        startPos = GetComponent<RectTransform>().position;
+    }
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer < DownSeconds) transform.position += Vector3.down;
-        if (timer > UpAfterSeconds) transform.position += Vector3.up;
-        if (timer > DestroyAfterSeconds) Destroy(gameObject);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            startMove = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            turn = true;
+        }
+        
+        if (startMove)
+        {
+            if (turn)
+            {
+                transform.position = 
+                    Vector3.SmoothDamp(transform.position, startPos, ref velocity, smoothTime);
+            }else transform.position = 
+                Vector3.SmoothDamp(transform.position, turnPoint.position, ref velocity, smoothTime);
+        }
     }
 }

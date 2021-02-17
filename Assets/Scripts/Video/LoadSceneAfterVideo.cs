@@ -7,15 +7,16 @@ namespace Video
     public class LoadSceneAfterVideo : MonoBehaviour
     {
         public VideoClip clip => GetComponent<VideoPlayer>().clip;
+        private SceneSwitcher sceneSwitcher => FindObjectOfType<SceneSwitcher>();
         private void Start()
         {
-            Invoke("SwitchScene", (float) clip.length
+            Invoke("CallSwitchScene", (float) clip.length
             + FindObjectOfType<Fade>().fadeDuration * 2);
         }
 
-        void SwitchScene()
+        public void CallSwitchScene()
         {
-            SceneManager.LoadScene("QuizScene");
+            sceneSwitcher.SwitchScene();
         }
     }
 }

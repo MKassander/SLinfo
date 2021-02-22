@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InfoText : MonoBehaviour
+public class MoveTextPanel : MonoBehaviour
 {
     public float smoothTime;
 
@@ -22,15 +22,11 @@ public class InfoText : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            startMove = true;
-        }
+        if (Input.GetKeyDown(KeyCode.Space)) startMove = true;
 
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            turn = true;
-        }
+        if (Input.GetKeyDown(KeyCode.M)) turn = true;
+
+        if (Input.GetKeyDown(KeyCode.K)) ResetBools();
         
         if (startMove)
         {
@@ -41,5 +37,11 @@ public class InfoText : MonoBehaviour
             }else transform.position = 
                 Vector3.SmoothDamp(transform.position, turnPoint.position, ref velocity, smoothTime);
         }
+    }
+
+    public void ResetBools()
+    {
+        startMove = false;
+        turn = false;
     }
 }

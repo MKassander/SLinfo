@@ -7,7 +7,7 @@ public class SwitchImage : MonoBehaviour
 {
     public RectTransform CurrentImage;
     public RectTransform ImageToSwitchTo;
-    private ScrollRect scrollRect => GetComponent<ScrollRect>();
+    private ScrollRect scrollRect => FindObjectOfType<ScrollRect>();
 
     public void Switch()
     {

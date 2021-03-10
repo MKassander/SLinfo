@@ -9,7 +9,7 @@ public class ZoomImage : MonoBehaviour, IScrollHandler
     [SerializeField] float maximumScale = 3f;
     [SerializeField] float scaleIncrement = .5f;
  
-    [HideInInspector] Vector3 scale;
+    Vector3 scale;
  
     RectTransform thisTransform;
  

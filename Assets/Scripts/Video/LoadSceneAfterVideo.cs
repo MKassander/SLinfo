@@ -7,7 +7,7 @@ namespace Video
     public class LoadSceneAfterVideo : MonoBehaviour
     {
         public VideoClip clip => GetComponent<VideoPlayer>().clip;
-        private SceneSwitcher sceneSwitcher => FindObjectOfType<SceneSwitcher>();
+        private SceneSwitcher sceneSwitcher => GetComponent<SceneSwitcher>();
         private void Start()
         {
             Invoke("CallSwitchScene", (float) clip.length

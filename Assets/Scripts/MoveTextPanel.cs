@@ -22,12 +22,6 @@ public class MoveTextPanel : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) startMove = true;
-
-        if (Input.GetKeyDown(KeyCode.M)) turn = true;
-
-        if (Input.GetKeyDown(KeyCode.K)) ResetBools();
-        
         if (startMove)
         {
             if (turn)

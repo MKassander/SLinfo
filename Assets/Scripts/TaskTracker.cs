@@ -21,12 +21,6 @@ public class TaskTracker : MonoBehaviour
         text.text = tasks[listIndex];
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.O)) OnTaskDone();
-        if (Input.GetKeyDown(KeyCode.P)) NewTask();
-    }
-
     public void OnTaskDone()
     {
         MoveTextPanel.ResetBools();
@@ -58,7 +52,8 @@ public class TaskTracker : MonoBehaviour
 
     void NewTask()
     {
-        text.text = tasks[listIndex+1];
+        listIndex++;
+        text.text = tasks[listIndex];
         MoveTextPanel.turn = true;
         HideCheckmark();
     }

@@ -568,7 +568,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Du ska testa infotavlorna p\xE5 ett s\xE4kert s\xE4tt. \nDetta g\xE5r
-    inte p\xE5 tid."
+    inte p\xE5 tid.\n\nAnv\xE4nd musen f\xF6r att navigera. "
 --- !u!222 &2010905556
 CanvasRenderer:
   m_ObjectHideFlags: 0

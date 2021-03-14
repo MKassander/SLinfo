@@ -913,8 +913,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.39209, y: 63.371014}
-  m_SizeDelta: {x: 66.3351, y: 28.228}
+  m_AnchoredPosition: {x: 62.865673, y: 36.337276}
+  m_SizeDelta: {x: 29.9778, y: 22.3094}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &554745673
 MonoBehaviour:
@@ -1292,7 +1292,7 @@ RectTransform:
   m_GameObject: {fileID: 1108787109}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4051195, y: 1.4051195, z: 1.4051195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 147177146}
   m_Father: {fileID: 910412412}
@@ -1301,7 +1301,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 700}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108787111
 MonoBehaviour:
@@ -2084,7 +2084,7 @@ RectTransform:
   m_GameObject: {fileID: 1225039646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9813074, y: 0.9813074, z: 0.9813074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 554745672}
   m_Father: {fileID: 910412412}
@@ -2092,8 +2092,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 700}
+  m_AnchoredPosition: {x: -0.0000033379, y: -26}
+  m_SizeDelta: {x: 815.6313, y: 538.5785}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225039648
 MonoBehaviour:
@@ -2533,8 +2533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
+  m_SizeDelta: {x: -10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649778498
 MonoBehaviour:
@@ -2557,13 +2557,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_Font: {fileID: 12800000, guid: 0f20823f5ae14e148b36eea32e2e5463, type: 3}
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 45
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2944,11 +2944,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAfter: 1
+  returnAfter: 2
+  resetAfter: 3
   image: {fileID: 1168908911}
   text: {fileID: 1649778498}
   tasks:
-  - 1
-  - 2
+  - "Du ska \xE5ka till Solna centrum, kan du hitta p\xE5 tavlan var det ligger?"
+  - "Du har f\xE5tt tips om att \xE5ka med ditt vanliga betalkort, kan du hitta mer
+    information om hur det fungerar?"
   - 3
   - 4
 --- !u!114 &1837283272

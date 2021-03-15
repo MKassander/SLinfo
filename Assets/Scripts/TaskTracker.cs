@@ -9,7 +9,6 @@ public class TaskTracker : MonoBehaviour
     public float moveAfter = 1;
     public float returnAfter = 2;
     public float resetAfter = 3;
-    public Image image;
     private MoveTextPanel MoveTextPanel => GetComponent<MoveTextPanel>();
     public Text text;
 
@@ -24,7 +23,6 @@ public class TaskTracker : MonoBehaviour
     public void OnTaskDone()
     {
         MoveTextPanel.ResetBools();
-        ShowCheckmark();
         Invoke(nameof(MovePanel), moveAfter);
         Invoke(nameof(NewTask), returnAfter);
         Invoke(nameof(ResetBools), resetAfter);
@@ -40,21 +38,10 @@ public class TaskTracker : MonoBehaviour
         MoveTextPanel.ResetBools();
     }
 
-    void ShowCheckmark()
-    {
-        image.color = Color.green;
-    }
-
-    void HideCheckmark()
-    {
-        image.color = Color.clear;
-    }
-
     void NewTask()
     {
         listIndex++;
         text.text = tasks[listIndex];
         MoveTextPanel.turn = true;
-        HideCheckmark();
     }
 }

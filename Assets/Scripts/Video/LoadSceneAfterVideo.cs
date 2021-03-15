@@ -10,8 +10,7 @@ namespace Video
         private SceneSwitcher sceneSwitcher => GetComponent<SceneSwitcher>();
         private void Start()
         {
-            Invoke("CallSwitchScene", (float) clip.length
-            + FindObjectOfType<Fade>().fadeDuration * 2);
+            Invoke("CallSwitchScene", (float) clip.length);
         }
 
         public void CallSwitchScene()

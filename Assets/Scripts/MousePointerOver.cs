@@ -2,15 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class MousePointerOver : MonoBehaviour
+public class MousePointerOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
-    private void OnMouseEnter()
+    public void OnPointerEnter(PointerEventData eventData)
     {
         Cursor.SetCursor(MousePointerHandler.instance.OverCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
-    private void OnMouseExit()
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Cursor.SetCursor(MousePointerHandler.instance.normalCursor, Vector2.zero, CursorMode.ForceSoftware);
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
     {
         Cursor.SetCursor(MousePointerHandler.instance.normalCursor, Vector2.zero, CursorMode.ForceSoftware);
     }

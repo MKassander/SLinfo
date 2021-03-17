@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -21,6 +22,19 @@ public class ZoomImage : MonoBehaviour, IScrollHandler
         scale.Set(initialScale, initialScale, 1f);
         thisTransform.localScale = scale;
  
+    }
+
+    public void ZoomIn()
+    {
+        var thisTransformLocalScale = thisTransform.localScale;
+        thisTransformLocalScale.x = Mathf.Clamp(thisTransformLocalScale.x + 0.1f, minimumScale, maximumScale);
+        thisTransformLocalScale.y = Mathf.Clamp(thisTransformLocalScale.y + 0.1f, minimumScale, maximumScale);
+    }
+    public void ZoomOut()
+    {
+        var thisTransformLocalScale = thisTransform.localScale;
+        thisTransformLocalScale.x = Mathf.Clamp(thisTransformLocalScale.x - 0.1f, minimumScale, maximumScale);
+        thisTransformLocalScale.y = Mathf.Clamp(thisTransformLocalScale.y - 0.1f, minimumScale, maximumScale);
     }
  
     public void OnScroll(PointerEventData eventData)

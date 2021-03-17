@@ -1405,7 +1405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1472,10 +1472,10 @@ MonoBehaviour:
   VideoPlayer: {fileID: 689081143}
   panel: {fileID: 1054596517}
   videoClips:
-  - {fileID: 32900000, guid: 82ee1fae8a3cffe42aca1f0ab315e635, type: 3}
-  - {fileID: 32900000, guid: 1966adb46fbce8545a596e5089e39190, type: 3}
-  - {fileID: 32900000, guid: 608f28b25d9212f4092d466db7517fc6, type: 3}
-  - {fileID: 32900000, guid: d367d439d64753048bf3bec30b5a7539, type: 3}
+  - 5_bra jobbat-1
+  - 5_bra jobbat-2
+  - 5_bra jobbat-3
+  - 5_bra jobbat-4
 --- !u!1 &910412411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2080,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 742105071}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1190221381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2658,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2935,7 +2947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -219.42}
+  m_AnchoredPosition: {x: 0, y: -103.88}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1624868807
@@ -3333,7 +3345,6 @@ GameObject:
   - component: {fileID: 1837283273}
   - component: {fileID: 1837283272}
   - component: {fileID: 1837283271}
-  - component: {fileID: 1837283270}
   m_Layer: 5
   m_Name: TaskTracker
   m_TagString: Untagged
@@ -3350,7 +3361,7 @@ RectTransform:
   m_GameObject: {fileID: 1837283268}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1649778497}
   m_Father: {fileID: 1412127413}
@@ -3358,25 +3369,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 57.67}
-  m_SizeDelta: {x: -1320, y: 82.89}
+  m_AnchoredPosition: {x: 0, y: 30}
+  m_SizeDelta: {x: -300, y: 82.89}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1837283270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837283268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbcdc0048d8a6e54086ab5728618a43f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smoothTime: 0.5
-  turnPoint: {fileID: 1624868806}
-  startMove: 0
-  turn: 0
 --- !u!114 &1837283271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3389,9 +3384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96519dd50abac7e4eb5b3659894d2c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAfter: 1
   returnAfter: 2
-  resetAfter: 3
   text: {fileID: 1649778498}
   tasks:
   - "Du ska \xE5ka Bl\xE5 linjen till stationen Solna centrum, kan du hitta p\xE5

@@ -9,12 +9,14 @@ public class EnableOnDone : MonoBehaviour
     private VideoPlayer VideoPlayer => GetComponent<VideoPlayer>();
     public GameObject StartCanvas;
 
-    private void FixedUpdate()
+    private void Start()
     {
-        if (VideoPlayer.time >= VideoPlayer.clip.length)
-        {
-            PauseAndEnable();
-        }
+        VideoPlayer.loopPointReached += VideoPlayerOnloopPointReached;
+    }
+
+    private void VideoPlayerOnloopPointReached(VideoPlayer source)
+    {
+        PauseAndEnable();
     }
 
     void PauseAndEnable()

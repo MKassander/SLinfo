@@ -6,16 +6,17 @@ namespace Video
 {
     public class LoadSceneAfterVideo : MonoBehaviour
     {
-        public VideoClip clip => GetComponent<VideoPlayer>().clip;
-        private SceneSwitcher sceneSwitcher => GetComponent<SceneSwitcher>();
+        private VideoPlayer VideoPlayer => GetComponent<VideoPlayer>();
+        private SceneSwitcher SceneSwitcher => GetComponent<SceneSwitcher>();
         private void Start()
         {
-            Invoke("CallSwitchScene", (float) clip.length);
+            VideoPlayer.loopPointReached += VideoPlayerOnloopPointReached;
         }
 
-        public void CallSwitchScene()
+        private void VideoPlayerOnloopPointReached(VideoPlayer source)
         {
-            sceneSwitcher.SwitchScene();
+            SceneSwitcher.SwitchScene();
         }
+
     }
 }

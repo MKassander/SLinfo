@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Video;
 
@@ -8,7 +9,7 @@ namespace Video
     {
         public VideoPlayer VideoPlayer;
         public GameObject panel;
-        public VideoClip[] videoClips;
+        public string[] videoClips;
         private int index = 0;
 
         private void Start()
@@ -24,7 +25,7 @@ namespace Video
         public void OnTaskDone()
         {
             panel.SetActive(true);
-            VideoPlayer.clip = videoClips[index];
+            VideoPlayer.url = Path.Combine(Application.streamingAssetsPath, videoClips[index] + ".mp4");
             index++;
             //VideoPlayer.Play();
         }

@@ -3393,8 +3393,8 @@ MonoBehaviour:
     om hur biljett via betalkort fungerar?"
   - "Du ska \xE5ka tunnelbana tillbaka med din kompis hund. Kan du hitta vad som
     g\xE4ller n\xE4r du ska \xE5ka med husdjur?"
-  - "Du ser nu att det st\xE5r avst\xE4ngningar p\xE5 ett papper i orange, vilket
-    datum g\xE4ller det?"
+  - "Du ser nu att det st\xE5r avst\xE4ngningar p\xE5 ett papper, vilket datum g\xE4ller
+    det?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272
 MonoBehaviour:

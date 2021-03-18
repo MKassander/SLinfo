@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TaskTracker : MonoBehaviour
 {
-    public float returnAfter = 2;
     public Text text;
 
     public List<string> tasks;
@@ -19,7 +16,7 @@ public class TaskTracker : MonoBehaviour
 
     public void OnTaskDone()
     {
-        Invoke(nameof(NewTask), returnAfter);
+        NewTask();
     }
 
     void NewTask()

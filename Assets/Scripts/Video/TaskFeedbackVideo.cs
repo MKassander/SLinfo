@@ -18,11 +18,13 @@ namespace Video
         private void Start()
         {
             VideoPlayer.loopPointReached += VideoPlayerOnloopPointReached;
+            VideoPlayer.targetTexture.Release();
         }
 
         private void VideoPlayerOnloopPointReached(VideoPlayer source)
         {
             panel.SetActive(false);
+            VideoPlayer.targetTexture.Release();
 
             //if (index == nextCanvas.Length + 1) return;
             //else

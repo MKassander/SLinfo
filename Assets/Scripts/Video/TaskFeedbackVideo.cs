@@ -25,9 +25,7 @@ namespace Video
         private void VideoPlayerOnloopPointReached(VideoPlayer source)
         {
             if (index == videoClips.Length -1)
-            {
                 SceneSwitcher.SwitchScene();
-            }
             panel.SetActive(false);
             VideoPlayer.targetTexture.Release();
 

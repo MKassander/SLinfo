@@ -27,12 +27,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Part2/SecondScene.unity
     guid: 29853db934877ea4f97bdf7f27fd3b8c
   - enabled: 1
-    path: Assets/Scenes/IntroSceneVideo3.unity
+    path: Assets/Scenes/Part3/IntroSceneVideo3.unity
     guid: cf6e85c89b3336e4ca677d4a60500d95
   - enabled: 1
-    path: Assets/Scenes/PreThirdScene.unity
+    path: Assets/Scenes/Part3/PreThirdScene.unity
     guid: 919a44a40ef09e14596810a438fa4e68
   - enabled: 1
-    path: Assets/Scenes/ThirdScene.unity
+    path: Assets/Scenes/Part3/ThirdScene.unity
     guid: f85ed694e8222364a9e4a6f0481898d3
+  - enabled: 1
+    path: Assets/Scenes/IntroSceneVideo4.unity
+    guid: dbeafbaeba410ce4db78b8fb826ca150
+  - enabled: 1
+    path: Assets/Scenes/PreFourthScene.unity
+    guid: 9c9297092cf83a24080b97c8698dc98f
+  - enabled: 1
+    path: Assets/Scenes/FourthScene.unity
+    guid: b0aeccbc8353e544e87924bfa56ac773
   m_configObjects: {}

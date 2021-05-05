@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 139013991}
   - component: {fileID: 139013990}
   m_Layer: 5
-  m_Name: "SecondCanvasUppg\xE5ng"
+  m_Name: SecondCanvasArlanda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,8 +259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.7739, y: 39.886963}
-  m_SizeDelta: {x: 202.0098, y: 142.3866}
+  m_AnchoredPosition: {x: -289.22043, y: 17.771595}
+  m_SizeDelta: {x: 167.5689, y: 118.8434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147177147
 MonoBehaviour:
@@ -404,8 +404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261.41962, y: -183.01678}
-  m_SizeDelta: {x: 30.6092, y: 22.979}
+  m_AnchoredPosition: {x: -68.62123, y: -25.301682}
+  m_SizeDelta: {x: 168.4366, y: 21.2547}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &187349814
 MonoBehaviour:
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 338389384}
   - component: {fileID: 338389383}
   m_Layer: 5
-  m_Name: "FirstCanvasAnm\xE4la"
+  m_Name: FirstCanvasKungsbron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -814,7 +814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43042a1faed66384ea269f2d3e18aebe, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7d8b33e123e04a248a56025b8c545b55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0618fd2e7cf4f0e44aafaa4f378502ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -961,8 +961,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287.2737, y: -54.411182}
-  m_SizeDelta: {x: 187.1406, y: 41.8431}
+  m_AnchoredPosition: {x: 172.0956, y: 37.718533}
+  m_SizeDelta: {x: 58.0962, y: 18.9838}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &554745673
 MonoBehaviour:
@@ -1175,8 +1175,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.68867, y: 39.8577}
-  m_SizeDelta: {x: 201.4771, y: 142.5494}
+  m_AnchoredPosition: {x: 67.3529, y: 16.424807}
+  m_SizeDelta: {x: 168.9829, y: 120.4285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742105073
 MonoBehaviour:
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7d8b33e123e04a248a56025b8c545b55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0618fd2e7cf4f0e44aafaa4f378502ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1804,8 +1804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.5624, y: 38.955536}
-  m_SizeDelta: {x: 199.9676, y: 140.2158}
+  m_AnchoredPosition: {x: -112.639755, y: 17.4535}
+  m_SizeDelta: {x: 169.0881, y: 119.9087}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145046943
 MonoBehaviour:
@@ -1949,8 +1949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223.44899, y: -190.2803}
-  m_SizeDelta: {x: 55.0131, y: 22.9138}
+  m_AnchoredPosition: {x: 130.71767, y: -45.708313}
+  m_SizeDelta: {x: 176.1897, y: 39.468}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &1190221380
 MonoBehaviour:
@@ -2184,7 +2184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 245742bef2bad924e8f1de709acdd0f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2321,8 +2321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80.60539, y: -123.98976}
-  m_SizeDelta: {x: 107.882, y: 55.4625}
+  m_AnchoredPosition: {x: 42.281326, y: 105.53624}
+  m_SizeDelta: {x: 44.5731, y: 27.1944}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &1219634171
 MonoBehaviour:
@@ -2490,7 +2490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4391b772d8f6e70498358cadb7c76bbf, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2790,7 +2790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7d8b33e123e04a248a56025b8c545b55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0618fd2e7cf4f0e44aafaa4f378502ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3042,7 +3042,7 @@ GameObject:
   - component: {fileID: 1666496679}
   - component: {fileID: 1666496678}
   m_Layer: 5
-  m_Name: FourthCanvasHiss
+  m_Name: "FourthCanvasResv\xE4ska"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3378,13 +3378,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "P\xE5 t\xE5get du klev av var det en person som agerade obehagligt, kan du hitta
-    information om vart du kan anm\xE4la detta?"
-  - "Du ska till Kungsholms kyrka, kan du hitta vilken utg\xE5ng p\xE5 kartan som
-    \xE4r n\xE4rmast?"
-  - "Kan du hitta och klicka p\xE5 den pil som visar riktningen f\xF6r att g\xE5
-    till uppg\xE5ngen n\xE4rmast Kungsholms kyrka?"
-  - "Kan du se om det finns tillg\xE5ng till hiss p\xE5 uppg\xE5ngen du valt?"
+  - "Du ska till Kungsbron, kan du hitta det p\xE5 kartan?"
+  - "Imorgon ska du \xE5ka till Arlanda, kan du hitta vilken linje du ska \xE5ka
+    imorgon p\xE5 tavlan?"
+  - "Kan du hitta information om hur du k\xF6per en Arlanda biljett?"
+  - "Kan du hitta information om du kommer f\xE5 ta med dig din resv\xE4ska p\xE5
+    Pendelt\xE5get?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272
 MonoBehaviour:
@@ -3499,7 +3498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7d8b33e123e04a248a56025b8c545b55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0618fd2e7cf4f0e44aafaa4f378502ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3530,7 +3529,7 @@ GameObject:
   - component: {fileID: 1899224151}
   - component: {fileID: 1899224150}
   m_Layer: 5
-  m_Name: ThirdCanvasPil
+  m_Name: ThirdCanvasBiljett
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3653,8 +3652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1174, y: 39.37547}
-  m_SizeDelta: {x: 201.2728, y: 143.9653}
+  m_AnchoredPosition: {x: 66.41077, y: 15.794004}
+  m_SizeDelta: {x: 169.6943, y: 119.4562}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022166974
 MonoBehaviour:
@@ -3852,7 +3851,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 245742bef2bad924e8f1de709acdd0f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

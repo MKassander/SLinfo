@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 139013991}
   - component: {fileID: 139013990}
   m_Layer: 5
-  m_Name: "SecondCanvasP\xE5Sp\xE5ret"
+  m_Name: "SecondCanvasUppg\xE5ng"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,8 +259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -219.02415, y: 39.800217}
-  m_SizeDelta: {x: 193.5576, y: 138.1605}
+  m_AnchoredPosition: {x: -2.7739, y: 39.886963}
+  m_SizeDelta: {x: 202.0098, y: 142.3866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147177147
 MonoBehaviour:
@@ -404,8 +404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -261.6, y: -222.24393}
-  m_SizeDelta: {x: 170.744, y: 40.2952}
+  m_AnchoredPosition: {x: 261.41962, y: -183.01678}
+  m_SizeDelta: {x: 30.6092, y: 22.979}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &187349814
 MonoBehaviour:
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 338389384}
   - component: {fileID: 338389383}
   m_Layer: 5
-  m_Name: FirstCanvasAkalla
+  m_Name: "FirstCanvasAnm\xE4la"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -952,17 +952,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554745671}
-  m_LocalRotation: {x: -0, y: -0, z: 0.39581153, w: 0.91833174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1225039647}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.4, y: 8.4}
-  m_SizeDelta: {x: 29.3, y: 78.5}
+  m_AnchoredPosition: {x: -287.2737, y: -54.411182}
+  m_SizeDelta: {x: 187.1406, y: 41.8431}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &554745673
 MonoBehaviour:
@@ -1175,7 +1175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.3, y: 39.7}
+  m_AnchoredPosition: {x: -4, y: 39}
   m_SizeDelta: {x: 201.4771, y: 142.5494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742105073
@@ -1949,8 +1949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 114.02665, y: 86.677216}
-  m_SizeDelta: {x: 206.5236, y: 45.0737}
+  m_AnchoredPosition: {x: 223.44899, y: -190.2803}
+  m_SizeDelta: {x: 55.0131, y: 22.9138}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &1190221380
 MonoBehaviour:
@@ -2184,7 +2184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c30227a8947446046b2f98abe2ede726, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2321,8 +2321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262.27234, y: -140.53708}
-  m_SizeDelta: {x: 167.5237, y: 24.4676}
+  m_AnchoredPosition: {x: 80.60539, y: -123.98976}
+  m_SizeDelta: {x: 107.882, y: 55.4625}
   m_Pivot: {x: 0.1, y: -1}
 --- !u!114 &1219634171
 MonoBehaviour:
@@ -2490,7 +2490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43042a1faed66384ea269f2d3e18aebe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86629513e33bda546be6a022cee09985, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3042,7 +3042,7 @@ GameObject:
   - component: {fileID: 1666496679}
   - component: {fileID: 1666496678}
   m_Layer: 5
-  m_Name: FourthCanvasQR
+  m_Name: FourthCanvasHiss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3378,14 +3378,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "Kan du hitta p\xE5 tavlan om Solna centrum ligger p\xE5 den bl\xE5 linjen mot
-    Akalla?"
-  - "En liten flicka p\xE5 perrongen tappade sin telefon p\xE5 sp\xE5ret. Kan du
-    hitta information p\xE5 tavlan hur du ska hj\xE4lpa henne?"
-  - "Du tycker att det \xE4r lite obehagligt att vara l\xE5ngt ner under marken,
-    kan du hitta information om evakuering?"
-  - "Du funderar p\xE5 hur ofta tunnelbanan g\xE5r p\xE5 kv\xE4llen, kan du f\xE5
-    med dig en aktuell tidtabell i telefonen?"
+  - "P\xE5 t\xE5get du klev av var det en person som agerade obehagligt, kan du hitta
+    information om vart du kan anm\xE4la detta?"
+  - "Du ska till Kungsholms kyrka, kan du hitta vilken utg\xE5ng p\xE5 kartan som
+    \xE4r n\xE4rmast?"
+  - "Kan du hitta och klicka p\xE5 den pil som visar riktningen f\xF6r att g\xE5
+    till uppg\xE5ngen n\xE4rmast Kungsholms kyrka?"
+  - "Kan du se om det finns tillg\xE5ng till hiss p\xE5 uppg\xE5ngen du valt?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272
 MonoBehaviour:
@@ -3531,7 +3530,7 @@ GameObject:
   - component: {fileID: 1899224151}
   - component: {fileID: 1899224150}
   m_Layer: 5
-  m_Name: ThirdCanvasOlycka
+  m_Name: ThirdCanvasPil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

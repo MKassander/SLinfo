@@ -3465,7 +3465,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -300, y: 80}
+  m_SizeDelta: {x: -300, y: 60}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1837283271
 MonoBehaviour:
@@ -3481,13 +3481,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "Kan du hitta p\xE5 tavlan om Solna centrum ligger p\xE5 den bl\xE5 linjen mot
+  - "Kan du hitta p\xE5 tavlan om Solna centrum ligger p\xE5 samma linje som slutstationen
     Akalla?"
-  - "En liten flicka p\xE5 perrongen tappade sin telefon p\xE5 sp\xE5ret. Kan du
-    hitta information p\xE5 tavlan hur du ska hj\xE4lpa henne?"
-  - "Du tycker att det \xE4r lite obehagligt att vara l\xE5ngt ner under marken,
-    kan du hitta information om evakuering?"
-  - "Du funderar p\xE5 hur ofta tunnelbanan g\xE5r p\xE5 kv\xE4llen, kan du f\xE5
+  - "En liten flicka tappade sin telefon p\xE5 sp\xE5ret. Kan du hitta information
+    p\xE5 tavlan om hur du kan hj\xE4lpa henne?"
+  - "Du tycker att det \xE4r lite obehagligt att vara l\xE5ngt ner under marken.
+    Kan du hitta information om evakuering?"
+  - "Du funderar p\xE5 hur ofta tunnelbanan g\xE5r p\xE5 kv\xE4llen. Kan du f\xE5
     med dig en aktuell tidtabell i telefonen?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272

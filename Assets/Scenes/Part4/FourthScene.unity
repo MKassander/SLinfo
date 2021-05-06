@@ -3378,12 +3378,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "Du ska till Kungsbron, kan du hitta det p\xE5 kartan?"
-  - "Imorgon ska du \xE5ka till Arlanda, kan du hitta vilken linje du ska \xE5ka
-    imorgon p\xE5 tavlan?"
-  - "Kan du hitta information om hur du k\xF6per en Arlanda biljett?"
-  - "Kan du hitta information om du kommer f\xE5 ta med dig din resv\xE4ska p\xE5
-    Pendelt\xE5get?"
+  - "Du ska till Kungsbron. Kan du hitta platsen p\xE5 kartan?"
+  - "Imorgon ska du \xE5ka till Arlanda. Kan du hitta p\xE5 tavlan vilken linje du
+    ska \xE5ka med?"
+  - "Kan du hitta information om hur du k\xF6per en Arlandabiljett?"
+  - "Kan du hitta information om ifall du f\xE5r ta med dig din resv\xE4ska p\xE5
+    pendelt\xE5get?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272
 MonoBehaviour:

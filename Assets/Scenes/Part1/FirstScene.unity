@@ -3378,7 +3378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "Du ska \xE5ka Bl\xE5 linjen till stationen Solna centrum, kan du hitta p\xE5
+  - "Du ska \xE5ka Bl\xE5 linjen till stationen Solna centrum. Kan du hitta p\xE5
     sp\xE5rtrafikkartan var det ligger?"
   - "Du har f\xE5tt tips om att \xE5ka med ditt vanliga betalkort. Kan du hitta information
     om hur biljett via betalkort fungerar?"

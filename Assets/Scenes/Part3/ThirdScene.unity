@@ -3465,7 +3465,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -300, y: 80}
+  m_SizeDelta: {x: -300, y: 60}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1837283271
 MonoBehaviour:
@@ -3481,12 +3481,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1649778498}
   tasks:
-  - "P\xE5 t\xE5get du klev av var det en person som agerade obehagligt, kan du hitta
-    information om vart du kan anm\xE4la detta?"
-  - "Du ska till Kungsholms kyrka, kan du hitta vilken utg\xE5ng p\xE5 kartan som
+  - "P\xE5 t\xE5get var det en person som agerade obehagligt. Kan du hitta information
+    om var du kan anm\xE4la detta?"
+  - "Du ska till Kungsholms kyrka. Kan du hitta p\xE5 kartan vilken utg\xE5ng som
     \xE4r n\xE4rmast?"
-  - "Kan du hitta och klicka p\xE5 den pil som visar riktningen f\xF6r att g\xE5
-    till uppg\xE5ngen n\xE4rmast Kungsholms kyrka?"
+  - "Kan du hitta pilen som visar riktningen du ska g\xE5 f\xF6r att komma till uppg\xE5ngen
+    n\xE4rmast Kungsholms kyrka?"
   - "Kan du se om det finns tillg\xE5ng till hiss p\xE5 uppg\xE5ngen du valt?"
   - Du har klarat samtliga uppdrag!
 --- !u!114 &1837283272

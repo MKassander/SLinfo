@@ -8,6 +8,6 @@ public class ToUrl : MonoBehaviour
 
     public void ButtonPress()
     {
-        Application.ExternalEval("window.open(" + url + ");");
+        Application.ExternalEval("window.open(" + url + ");"); // funkar inte
     }
 }

@@ -32,10 +32,11 @@ namespace Video
             //if (index == nextCanvas.Length + 1) return;
             //else
             nextCanvas[index].SetActive(true);
-            if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);
+            if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);//
             taskTracker.OnTaskDone();
             
             index++;
+            Debug.Log("index: " + index);
         }
 
         public void OnTaskDone()

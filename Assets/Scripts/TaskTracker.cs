@@ -22,6 +22,7 @@ public class TaskTracker : MonoBehaviour
     void NewTask()
     {
         listIndex++;
-        text.text = tasks[listIndex];
+        if (listIndex < tasks.Count)
+            text.text = tasks[listIndex];
     }
 }

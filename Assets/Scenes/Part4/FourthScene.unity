@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentImage: {fileID: 1194292429}
-  ImageToSwitchTo: {fileID: 1874862904}
+  ImageToSwitchTo: {fileID: 0}
 --- !u!114 &1194292431
 MonoBehaviour:
   m_ObjectHideFlags: 0

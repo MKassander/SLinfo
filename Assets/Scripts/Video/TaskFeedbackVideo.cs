@@ -20,6 +20,9 @@ namespace Video
         {
             VideoPlayer.loopPointReached += VideoPlayerOnloopPointReached;
             VideoPlayer.targetTexture.Release();
+            
+            VideoPlayer.url = Path.Combine(Application.streamingAssetsPath, videoClips[index] + ".mp4");
+            VideoPlayer.Prepare();
         }
 
         private void VideoPlayerOnloopPointReached(VideoPlayer source)
@@ -28,21 +31,26 @@ namespace Video
                 SceneSwitcher.SwitchScene();
             panel.SetActive(false);
             VideoPlayer.targetTexture.Release();
-
-            //if (index == nextCanvas.Length + 1) return;
-            //else
+            
             nextCanvas[index].SetActive(true);
-            if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);//
+            if (index < currentCanvas.Length) currentCanvas[index].SetActive(false);//
             taskTracker.OnTaskDone();
             
             index++;
-            Debug.Log("index: " + index);
+            //Debug.Log("index: " + index);
+            if (index < videoClips.Length)
+            {
+                VideoPlayer.url = Path.Combine(Application.streamingAssetsPath, videoClips[index] + ".mp4");
+                VideoPlayer.Prepare();
+                VideoPlayer.Pause();
+            }
         }
 
         public void OnTaskDone()
         {
             panel.SetActive(true);
-            VideoPlayer.url = Path.Combine(Application.streamingAssetsPath, videoClips[index] + ".mp4");
+            VideoPlayer.frame = 0;
+            VideoPlayer.Play();
         }
     }
 }

@@ -11,8 +11,11 @@ public class SwitchImage : MonoBehaviour
 
     public void Switch()
     {
-        ImageToSwitchTo.gameObject.SetActive(true);
-        scrollRect.content = ImageToSwitchTo;
-        CurrentImage.gameObject.SetActive(false);
+        if (ImageToSwitchTo != null)
+        {
+            ImageToSwitchTo.gameObject.SetActive(true);
+            scrollRect.content = ImageToSwitchTo;
+            CurrentImage.gameObject.SetActive(false);
+        }
     }
 }

@@ -907,7 +907,6 @@ GameObject:
   - component: {fileID: 1701953581}
   - component: {fileID: 1701953580}
   - component: {fileID: 1701953579}
-  - component: {fileID: 1701953582}
   m_Layer: 5
   m_Name: LinkButton
   m_TagString: Untagged
@@ -979,7 +978,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1701953582}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToUrl, Assembly-CSharp
         m_MethodName: ButtonPress
         m_Mode: 1
@@ -1029,19 +1028,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701953577}
   m_CullTransparentMesh: 1
---- !u!114 &1701953582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701953577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6990dea94b8db7142b4c856539dc3e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  url: https://www.google.se/
 --- !u!1 &1829023768
 GameObject:
   m_ObjectHideFlags: 0

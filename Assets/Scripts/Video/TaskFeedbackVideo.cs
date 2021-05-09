@@ -26,14 +26,17 @@ namespace Video
         {
             if (index == videoClips.Length -1)
                 SceneSwitcher.SwitchScene();
-            panel.SetActive(false);
-            VideoPlayer.targetTexture.Release();
+            else
+            {
+                panel.SetActive(false);
+                VideoPlayer.targetTexture.Release();
 
-            nextCanvas[index].SetActive(true);
-            if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);
-            taskTracker.OnTaskDone();
+                nextCanvas[index].SetActive(true);
+                if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);
+                taskTracker.OnTaskDone();
             
-            index++;
+                index++;
+            }
         }
 
         public void OnTaskDone()

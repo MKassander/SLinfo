@@ -29,8 +29,6 @@ namespace Video
             panel.SetActive(false);
             VideoPlayer.targetTexture.Release();
 
-            //if (index == nextCanvas.Length + 1) return;
-            //else
             nextCanvas[index].SetActive(true);
             if (index <= currentCanvas.Length) currentCanvas[index].SetActive(false);
             taskTracker.OnTaskDone();

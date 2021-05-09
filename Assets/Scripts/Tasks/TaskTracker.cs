@@ -4,14 +4,14 @@ using UnityEngine.UI;
 
 public class TaskTracker : MonoBehaviour
 {
-    public Text text;
+    public Text task;
 
     public List<string> tasks;
     private int listIndex = 0;
 
     private void Start()
     {
-        text.text = tasks[listIndex];
+        task.text = tasks[listIndex];
     }
 
     public void OnTaskDone()
@@ -22,6 +22,6 @@ public class TaskTracker : MonoBehaviour
     void NewTask()
     {
         listIndex++;
-        text.text = tasks[listIndex];
+        task.text = tasks[listIndex];
     }
 }

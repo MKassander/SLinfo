@@ -3418,8 +3418,8 @@ MonoBehaviour:
     p\xE5 tavlan om hur du kan hj\xE4lpa henne?"
   - "Du tycker att det \xE4r lite obehagligt att vara l\xE5ngt ner under marken.
     Kan du hitta information om evakuering?"
-  - "Du funderar p\xE5 hur ofta tunnelbanan g\xE5r p\xE5 kv\xE4llen. Kan du f\xE5
-    med dig en aktuell tidtabell i telefonen?"
+  - "Du funderar p\xE5 hur ofta tunnelbanan g\xE5r p\xE5 kv\xE4llen.      Kan du
+    f\xE5 med dig en aktuell tidtabell i telefonen?"
 --- !u!114 &1837283272
 MonoBehaviour:
   m_ObjectHideFlags: 0

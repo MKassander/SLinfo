@@ -3412,8 +3412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   task: {fileID: 1649778498}
   tasks:
-  - "P\xE5 t\xE5get var det en person som agerade obehagligt. Kan du hitta information
-    om var du kan anm\xE4la detta?"
+  - "P\xE5 t\xE5get var det en person som agerade obehagligt.       Kan du hitta
+    information om var du kan anm\xE4la detta?"
   - "Du ska till Kungsholms kyrka. Kan du hitta p\xE5 kartan vilken utg\xE5ng som
     \xE4r n\xE4rmast?"
   - "Kan du hitta pilen som visar riktningen du ska g\xE5 f\xF6r att komma till uppg\xE5ngen

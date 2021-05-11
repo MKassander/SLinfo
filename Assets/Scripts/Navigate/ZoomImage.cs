@@ -3,10 +3,10 @@ using UnityEngine.EventSystems;
 
 public class ZoomImage : MonoBehaviour, IScrollHandler
 {
-    float minimumScale = 0.5f;
-    float initialScale = 1f;
-    float maximumScale = 3f;
-    float scaleIncrement = .5f;
+    public float minimumScale = 0.5f;
+    public float initialScale = 1f;
+    public float maximumScale = 3f;
+    public float scaleIncrement = .5f;
  
     Vector3 scale;
  

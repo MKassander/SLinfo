@@ -790,6 +790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 3
+  scaleIncrement: 0.05
 --- !u!114 &505573003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,6 +883,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 2
+  scaleIncrement: 0.05
 --- !u!114 &516585534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,6 +1867,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 2
+  scaleIncrement: 0.05
 --- !u!1 &1145046941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2263,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 3
+  scaleIncrement: 0.05
 --- !u!114 &1194292432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,6 +2637,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 3
+  scaleIncrement: 0.05
 --- !u!1 &1412127409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +2868,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 2
+  scaleIncrement: 0.05
 --- !u!114 &1508995268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3508,6 +3532,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 2
+  scaleIncrement: 0.05
 --- !u!114 &1874862906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3857,6 +3885,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScale: 1
+  initialScale: 1
+  maximumScale: 3
+  scaleIncrement: 0.05
 --- !u!114 &2032465802
 MonoBehaviour:
   m_ObjectHideFlags: 0

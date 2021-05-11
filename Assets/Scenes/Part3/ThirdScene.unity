@@ -3442,7 +3442,7 @@ MonoBehaviour:
     \xE4r n\xE4rmast?"
   - "Kan du hitta pilen som visar riktningen du ska g\xE5 f\xF6r att komma till uppg\xE5ngen
     n\xE4rmast Kungsholms kyrka?"
-  - "Kan du se om det finns tillg\xE5ng till hiss p\xE5 uppg\xE5ngen du valt?"
+  - "Kan du se om det finns tillg\xE5ng till hiss p\xE5 uppg\xE5ngen        du valt?"
 --- !u!114 &1837283272
 MonoBehaviour:
   m_ObjectHideFlags: 0

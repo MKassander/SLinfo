@@ -3333,14 +3333,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   task: {fileID: 1649778498}
   tasks:
-  - "Du ska \xE5ka Bl\xE5 linjen till stationen Solna centrum. Kan du hitta p\xE5
-    sp\xE5rtrafikkartan var det ligger?"
+  - "Du ska \xE5ka Bl\xE5 linjen till stationen Solna centrum. Kan du hitta var den
+    ligger p\xE5 sp\xE5rtrafikkartan?"
   - "Du har f\xE5tt tips om att \xE5ka med ditt vanliga betalkort. Kan du hitta information
     om hur biljett via betalkort fungerar?"
   - "Du ska \xE5ka tunnelbana tillbaka med din kompis hund.     Kan du hitta vad
     som g\xE4ller n\xE4r du ska \xE5ka med husdjur?"
-  - "Du ser nu att det st\xE5r avst\xE4ngningar p\xE5 ett papper. Kan du hitta vilket
-    datum avst\xE4ngningen g\xE4ller?"
+  - "Du ser nu att det st\xE5r n\xE5got om avst\xE4ngningar p\xE5 tavlan. Kan du
+    hitta vilka datum som avst\xE4ngningen g\xE4ller?"
 --- !u!114 &1837283272
 MonoBehaviour:
   m_ObjectHideFlags: 0

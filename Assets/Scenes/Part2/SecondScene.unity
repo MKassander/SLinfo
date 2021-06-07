@@ -790,8 +790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumScale: 0.8
-  initialScale: 0.8
+  minimumScale: 0.95
+  initialScale: 0.95
   maximumScale: 3
   scaleIncrement: 0.05
 --- !u!114 &505573003
@@ -2160,8 +2160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumScale: 0.8
-  initialScale: 0.8
+  minimumScale: 0.95
+  initialScale: 0.95
   maximumScale: 3
   scaleIncrement: 0.05
 --- !u!114 &1194292432
@@ -2534,8 +2534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumScale: 0.8
-  initialScale: 0.8
+  minimumScale: 0.95
+  initialScale: 0.95
   maximumScale: 3
   scaleIncrement: 0.05
 --- !u!1 &1243216359
@@ -3886,8 +3886,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e33a711b0471eac177ab2e6816eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumScale: 0.8
-  initialScale: 0.8
+  minimumScale: 0.95
+  initialScale: 0.95
   maximumScale: 3
   scaleIncrement: 0.05
 --- !u!114 &2032465802
